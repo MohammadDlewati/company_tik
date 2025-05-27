@@ -1,6 +1,10 @@
 let icon = document.getElementById('icon-mobile');
 let ul = document.getElementById('ul-mobile');
 
-icon.onclick = function(){
+/*icon.onclick = function(){
     ul.classList.toggle('mobile-nav1');
-};
+};*/
+
+icon.addEventListener('click', function() {
+    ul.classList.toggle('mobile-nav1');
+});
