@@ -87,6 +87,9 @@ header .container nav {
         justify-content: end;
     }
 }
+.nav-tog:hover {
+    cursor: pointer;
+}
 header .container nav ul {
     display: flex;
     
